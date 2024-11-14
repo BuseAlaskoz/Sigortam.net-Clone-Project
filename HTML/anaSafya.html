@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sigortam.net</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link
+      rel="shortcut icon"
+      href="../ASSETS/app-logo-goat.svg"
+      type="image/x-icon"
+    />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <div class="sticky-card" id="stickyCard">
+      <img src="../ASSETS/sticky-card.svg" alt="" class="sticky-card-img" />
+      <span class="sticky-card-span"
+        >Arkadaşlarını Davet Et, 20.000 TL’ye varan hediye çeki kazan!</span
+      >
+      <i
+        class="bx bx-chevron-right"
+        style="
+          height: 36px;
+          outline-width: 0px;
+          width: 36px;
+          font-size: 24px;
+          align-content: center;
+        "
+      ></i>
+    </div>
+    <nav class="navbar navbar-expand-lg" style="width: 100% !important; position: fixed; top: 0; left: 0; background-color: #fff !important;z-index: 9999;">
+      <div class="container-fluid">
+        <a href="" class="header-logo" style="text-decoration: none">
+          <div class="app-logo">
+            <img src="../ASSETS/app-logo-goat.svg" alt="" class="logo-goat" />
+            <img src="../ASSETS/app-logo-title.svg" alt="" class="logo-title" />
+          </div>
+        </a>
+        <button
+          id="navbarNav"
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mx-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a
+                id="urunlerimiz"
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Ürünlerimiz
+              </a>
+              <ul class="dropdown-menu" style="background-color: #F5F7F9; padding: 0 !important;" >
+                  <nav role="navigation" class="app-header-dropdown mega-menu" class="dropdown-item">
+                  <strong class="mega-menu__title" >Sigortam.net'i keşfedin</strong>
+                  <div class="mega-menu__tileList">
+                    <div class="mega-menu-tile">
+                      <div class="mega-menu-tile__head">
+                        <strong class="mega-menu-tile__title">Aracım</strong>
+                        <img src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/mega-menu/car.svg" alt="Aracım" class="mega-menu-tile__icon">
+                      </div>
+                      <nav role="navigation" class="mega-menu-tile-nav">
+                        <li class="mega-menu-tile-nav__item">
+                          <a href="/kasko-sigortasi" class="block-nav-link">
+                            <span class="block-nav-link__title">Kasko
+                              <!---->
+                            </span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="block-nav-link__icon">
+                              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="mega-menu-tile-nav__item">
+                          <a href="/trafik-sigortasi" class="block-nav-link">
+                            <span class="block-nav-link__title">Trafik Sigortası
+                              <!---->
+                            </span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="block-nav-link__icon">
+                              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="mega-menu-tile-nav__item">
+                          <a href="/imm-sigortasi" class="block-nav-link">
+                            <span class="block-nav-link__title">İMM
+                              <!---->
+                            </span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="block-nav-link__icon">
+                              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                          </a>
+                        </li>
+                      </nav>
+                    </div>
+                    <div class="mega-menu-tile">
+                      <div class="mega-menu-tile__head">
+                        <strong class="mega-menu-tile__title">Sağlığım</strong>
+                        <img src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/mega-menu/health.svg" alt="Sağlığım" class="mega-menu-tile__icon">
+                      </div>
+                      <nav role="navigation" class="mega-menu-tile-nav">
+                        <li class="mega-menu-tile-nav__item">
+                          <a href="/tamamlayici-saglik-sigortasi" class="block-nav-link">
+                            <span class="block-nav-link__title">Tamamlayıcı Sağlık Sigortası
+                              <!---->
+                            </span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="block-nav-link__icon">
+                              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="mega-menu-tile-nav__item">
+                          <a href="/ozel-saglik-sigortasi" class="block-nav-link">
+                            <span class="block-nav-link__title">Özel Sağlık Sigortası
+                              <!---->
+                            </span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="block-nav-link__icon">
+                              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="mega-menu-tile-nav__item">
+                          <a href="/seyahat-saglik-sigortasi" class="block-nav-link">
+                            <span class="block-nav-link__title">Seyahat Sağlık
+                              <!---->
+                            </span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="block-nav-link__icon">
+                              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                          </a>
+                        </li>
+                      </nav>
+                    </div>
+                    <div class="mega-menu-tile">
+                      <div class="mega-menu-tile__head">
+                        <strong class="mega-menu-tile__title">Evim</strong>
+                        <img src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/mega-menu/home.svg" alt="Evim" class="mega-menu-tile__icon">
+                      </div>
+                      <nav role="navigation" class="mega-menu-tile-nav">
+                        <li class="mega-menu-tile-nav__item">
+                          <a href="/dask-sigortasi" class="block-nav-link">
+                            <span class="block-nav-link__title">DASK
+                              <!---->
+                            </span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="block-nav-link__icon">
+                              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="mega-menu-tile-nav__item">
+                          <a href="/konut-sigortasi" class="block-nav-link">
+                            <span class="block-nav-link__title">Konut Sigortası
+                              <!---->
+                            </span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="block-nav-link__icon">
+                              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="mega-menu-tile-nav__item">
+                          <a href="/evim-guvende-sigortasi" class="block-nav-link">
+                            <span class="block-nav-link__title">Evim Güvende
+                              <!---->
+                            </span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="block-nav-link__icon">
+                              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                          </a>
+                        </li>
+                      </nav>
+                    </div>
+                    <div class="mega-menu-tile">
+                      <div class="mega-menu-tile__head">
+                        <strong class="mega-menu-tile__title">Diğer</strong>
+                        <img src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/mega-menu/other.svg" alt="Diğer" class="mega-menu-tile__icon">
+                      </div>
+                      <nav role="navigation" class="mega-menu-tile-nav">
+                        <li class="mega-menu-tile-nav__item">
+                          <a href="/cep-telefonu-sigortasi" class="block-nav-link">
+                            <span class="block-nav-link__title">Cep Telefonu
+                              <!---->
+                            </span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="block-nav-link__icon">
+                              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="mega-menu-tile-nav__item">
+                          <a href="/evcil-hayvan-sigortasi" class="block-nav-link">
+                            <span class="block-nav-link__title">Evcil Hayvan
+                              <!---->
+                            </span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="block-nav-link__icon">
+                              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="mega-menu-tile-nav__item">
+                          <a href="/ferdi-kaza-sigortasi" class="block-nav-link">
+                            <span class="block-nav-link__title">Ferdi Kaza 
+                            </span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="block-nav-link__icon">
+                              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                          </a>
+                        </li>
+                      </nav>
+                    </div>
+                  </div>
+                </nav>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../HTML/kampanyalar.html">Kampanyalar</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Poliçe İşlemleri
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Poliçe İptal Başvuru</a></li>
+                <li><a class="dropdown-item" href="#">Poliçe İptal Takip</a></li>
+                
+              </ul>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Bilgi Merkezi
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Sigorta Blog</a><i></i></li>
+                  <li><a class="dropdown-item" href="#">Hakkımızda</a><i></i></li>
+                  
+                </ul>
+              </li>
+            </li>
+          </ul>
+          <div class="header-menu">
+            <a
+              href="tel:4442400"
+              aria-label="Yardımcı olmaya hazırız"
+              class="nav-help"
+            >
+              <span class="nav-help-title">Yardımcı olmaya hazırız</span>
+              <span class="nav-help-phone"
+                ><i
+                  class="bx bx-phone"
+                  style="font-size: 24px; margin-right: 6px"
+                ></i
+                >444 24 00</span
+              >
+            </a>
+            <a href="">
+              <button type="button" class="sign-button">
+                <span style="background-color: #0089ec; color: #fff;">Giriş Yap / Üye Ol</span>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <!------------------------------MAIN SECTION-------------------------------------->
+    <main style="text-align: center;">
+      <div style="background-color: #F5F7F9;  padding: 100px 0;">
+      <h1 class="branch-list__title">Sigortada Güvenin Adresi</h1>
+      <div class="branch-list__subTitle">Doğru Ürün. İyi Fiyat. 7/24 Hizmet.</div>
+      <div class="container" style="max-width: 890px;
+    margin: 0 auto;">
+        <div class="row row-cols-2 row-cols-md-3 g-4">
+            <div class="col text-center">
+                <div class="card h-100 d-flex align-items-center justify-content-center">
+                    <a class="card-body d-flex flex-column align-items-center">
+                        <img width="110" height="90"
+                            src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/branchs/category/auto-v2.svg"
+                            alt="" />
+                        <span>Kasko</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col text-center">
+                <div class="card h-100 d-flex align-items-center justify-content-center">
+                    <a class="card-body d-flex flex-column align-items-center">
+                        <img width="110" height="90"
+                            src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/branchs/category/electric-vehicle-orange.svg"
+                            alt="" />
+                        <span>Elektrikli Araç Kaskosu</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col text-center">
+                <div class="card h-100 d-flex align-items-center justify-content-center">
+                    <a class="card-body d-flex flex-column align-items-center">
+                        <img width="110" height="90"
+                            src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/branchs/category/complementhealth-v2.svg"
+                            alt="" />
+                        <span>Tamamlayıcı Sağlık</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-2 row-cols-md-5 g-4 mt-0">
+            <div class="col text-center">
+                <div class="card h-100 d-flex align-items-center justify-content-center">
+                    <a class="card-body d-flex flex-column align-items-center">
+                        <img width="110" height="90"
+                            src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/branchs/category/traffic-orange.svg"
+                            alt="" />
+                        <span>Trafik Sigortası</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col text-center">
+                <div class="card h-100 d-flex align-items-center justify-content-center">
+                    <a class="card-body d-flex flex-column align-items-center">
+                        <img width="110" height="90"
+                            src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/branchs/category/imm.svg"
+                            alt="" />
+                        <span>İMM</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col text-center">
+                <div class="card h-100 d-flex align-items-center justify-content-center">
+                    <a class="card-body d-flex flex-column align-items-center">
+                        <img width="110" height="90"
+                            src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/branchs/category/healthOrange.svg"
+                            alt="" />
+                        <span>Özel Sağlık</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col text-center">
+                <div class="card h-100 d-flex align-items-center justify-content-center">
+                    <a class="card-body d-flex flex-column align-items-center">
+                        <img width="110" height="90"
+                            src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/branchs/category/travel.svg"
+                            alt="" />
+                        <span>Seyahat Sağlık</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col text-center">
+                <div class="card h-100 d-flex align-items-center justify-content-center">
+                    <a class="card-body d-flex flex-column align-items-center">
+                        <img width="110" height="90"
+                            src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/branchs/category/dask-v2.svg"
+                            alt="" />
+                        <span>DASK</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="branch-list__seeAllProducts">
+          <a href="" class="branch-list__button" id="seeAllProducts">
+          Tüm Ürünleri Gör
+        </a>
+      </div>
+    </div>
+    </div>
+    <section class="color-bg-03 home-page__whyPolicyBuyList">
+      <div class="container">
+        <div class="why-policy-buy-list">
+          <h2 class="why-policy-buy-list__title text-align-center font-weight-semi-bold" style="font-size: 32px !important; font-weight: 600;"> Poliçemi neden Sigortam.net’ten almalıyım? </h2>
+          <div class="why-policy-buy-list__content">
+            <div class="why-policy-buy-list__contentItem">
+              <img  alt="Doğru Ürün" width="90" height="90" class=" ls-is-cached lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/policy-trustworthy.svg">
+              <span class="font-weight-semi-bold">Doğru Ürün</span>
+              <p>Yenilenen yapay zekâmızla, onlarca sigorta teklifi arasından ucuzunu, sana uygununu ve kapsamlısını buluyoruz. Net teminatlar ve net fiyatlarla kararın hep net olsun.</p>
+            </div>
+            <div class="why-policy-buy-list__contentItem">
+              <img alt="İyi Fiyat" width="90" height="90" class=" ls-is-cached lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/policy-price.svg">
+              <span class="font-weight-semi-bold">İyi Fiyat</span>
+              <p>Önceliğimiz her zaman sensin. Çalıştığımız tüm şirketlerde bütçeni düşünerek “en iyi fiyat garantisi” sunuyoruz.</p>
+            </div>
+            <div class="why-policy-buy-list__contentItem">
+              <img alt="7/24 Hizmet" width="90" height="90" class=" ls-is-cached lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/policy-with-you.svg">
+              <span class="font-weight-semi-bold">7/24 Hizmet</span>
+              <p> 24 yıllık tecrübemiz ve uzman sigorta danışmanlarımızla 7/24 her ihtiyacında yanındayız. Üstelik hasar anında saniyeler içinde bize ulaşabilirsin. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="phone-container">
+        <div class="phone-container-left-side">
+          <div class="phone-container-content-block" id="block1">
+            <div class="content-block-title">Hangi ürün bana en uygun diye düşünme, biz senin için en net teklifleri sıraladık bile!</div>
+            <div class="content-block-detail">
+              Tüm teminatları tek tek inceledik, ihtiyaçlarına en uygun olan teminatları belirledik. Sana özel kapsamlı ve fiyatı uygun ürün önerileri hazırladık.
+            </div>
+          <div class="content-block-button"> Hemen Teklif Al <svg width="18" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="ml-3">
+              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" style="color:#0089ec;" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+          </div></div>
+          <div class="phone-container-content-block" id="block2">
+            <div class="content-block-title">Sadece 2 dakikada tüm teklifleri kolayca karşılaştır.</div>
+            <div class="content-block-detail">
+              20+ sigorta şirketinden teklifleri tek platformda karşılaştır, internete özel indirimlerle uygun fiyata sigortan anında başlasın.
+            </div>
+            <div class="content-block-button">
+              Hemen Teklif Al <svg width="18" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="ml-3"><path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" style="color:#0089ec;" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+          </div>
+        </div>
+        <div class="phone-container-right-side">
+          <div class="phone-container-sticky-div1">
+            <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/phone-mockup2.jpg" alt="en iyi sigorta teklifi" width="260" height="528" class="landing-cover__mockUpImage ls-is-cached lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/phone-mockup.jpg"><div style="color: #717171;font-size: 11px;line-height: 14px;letter-spacing: -0.16px;text-align: center;">Görseldeki fiyatlar temsilidir. Aracına özel fiyatları tekliflerde görebilirsin.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section style="padding: 72px 0;">
+      <h2 class="landing-tabs__title">Sigortam.net'te sana özel neler var?</h2>
+      <ul role="tablist" class="vue-tablist">
+        <li role="tab" aria-selected="true" aria-disabled="false" class="vue-tab" id="selected-tab">İndirimler &amp; Kampanyalar</li>
+        <li role="tab" aria-selected="false" aria-disabled="false" class="vue-tab">Reklam Filmleri</li>
+        <li role="tab" aria-selected="false" aria-disabled="false" class="vue-tab">Öne Çıkanlar</li>
+      </ul>
+      <div class="carousel">
+        <div class="carousel-slides">
+            <div class="slide">
+              <div class="box">
+                <div class="landing-carousel-card__infoInner">
+                  <strong class="landing-carousel-card__title">Arkadaşlarını davet et, <br> Kaskoda %65’e varan hasarsızlık indirimi! </strong>
+                  <span role="button" class="landing-carousel-card__discoverLink"> Hemen Keşfet -&gt; </span>
+                </div>
+              </div>
+                <img src="../ASSETS/videos/kasko-hasarsizlik.jpg" alt="Slide 1">
+                
+            </div>
+            <div class="slide">
+              <div class="box">
+                <div class="landing-carousel-card__infoInner">
+                  <strong class="landing-carousel-card__title">%25’e varan meslek indirimleriyle kaskon Sigortam.net’te!</strong>
+                  <span role="button" class="landing-carousel-card__discoverLink"> Hemen Keşfet -&gt; </span>
+                </div>
+              </div>
+                <img src="../ASSETS/videos/meslek-indirimi.jpg" alt="Slide 2">
+                
+            </div>
+            <div class="slide">
+              <div class="box">
+                <div class="landing-carousel-card__infoInner">
+                  <strong class="landing-carousel-card__title">Sigortam.net’ten Türk Telekom müşterilerine özel indirimler!</strong>
+                  <span role="button" class="landing-carousel-card__discoverLink"> Hemen Keşfet -&gt; </span>
+                </div>
+              </div>
+                <img src="../ASSETS/videos/paylas-kazan-kampanya.jpg" alt="Slide 3">
+                
+            </div>
+            <div class="slide">
+              <div class="box">
+                <div class="landing-carousel-card__infoInner">
+                  <strong class="landing-carousel-card__title">Arkadaşlarını davet et, 20.000 TL'ye varan hediye çeki kazan!</strong>
+                  <span role="button" class="landing-carousel-card__discoverLink"> Hemen Keşfet -&gt; </span>
+                </div>
+              </div>
+                <img src="../ASSETS/videos/turk-telekom.jpg" alt="Slide 4">
+                
+            </div>
+        </div>
+        <button class="carousel-btn prev" onclick="moveSlide(-1)" style="background: none;">&#10094;</button>
+        <button class="carousel-btn next" onclick="moveSlide(1)" style="background: none;">&#10095;</button>
+    </div>
+    </section>
+
+      <section class="home-page__commentList">
+        <div class="container">
+          <div class="comment-list">
+            <h2 class="comment-list__title">10 Milyon Mutlu Müşteri, 50+ Milyon Poliçe Teklifi</h2>
+            <div class="comment-list__cards">
+              <div class="card comment-card col-11 col-md-4 comment-list__card">
+                <span class="comment-card__interpretation">İnternetten alınan bir poliçeden <span class="font-weight-bold"> çok daha fazlası. </span> Kaza anında çekicinin gelmesinden tutun sağlık durumunuza kadar <span class="font-weight-bold"> her şeyle ilgileniyorlar. </span>
+                </span>
+                <span class="comment-card__customer">Kasım Ş.</span>
+              </div>
+              <div class="card comment-card col-11 col-md-4 comment-list__card">
+                <span class="comment-card__interpretation">Sigortam.net sayesinde evden çıkmadan <span class="font-weight-bold"> tek bir telefonla </span> trafik sigortası ve kaskoyu yaptırdım. <span class="font-weight-bold"> Hızlı, sorunsuz ve güvenilir. </span>
+                </span>
+                <span class="comment-card__customer">Murat İ.</span>
+              </div>
+              <div class="card comment-card col-11 col-md-4 comment-list__card">
+                <span class="comment-card__interpretation">Piyasadan alabileceğim kasko poliçesini aynı kapsamda <span class="font-weight-bold"> taksitle, daha ucuza ve profesyonel hizmetle </span> Sigortam.net üzerinden satın aldım. </span>
+                <span class="comment-card__customer">Şaban K.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="home-page__awardList color-bg-03">
+        <div class="container">
+          <div class="award-showcase">
+            <div class="row award-carousel__content align-items-center">
+              <span class="award-carousel__detail col-sm-12 col-md-6" style="text-align: start;">
+                <a href="/odullerimiz" class="">
+                  <h2 class="award-carousel__detailTitle">Ödüllerimizden bahsetmiş miydik?</h2>
+                  <p style="color: #515353; margin: 16px 0;">Dünyanın en prestijli ödüllerinden biri olan Stevie Awards’ta <br class="d-none d-xl-block">Sigorta Sektörünün En İyi Websitesi Ödülü’nü kazandık. <br class="d-none d-xl-block">Sizinle yürüdüğümüz bu yolda nice ödülleri kucaklamak dileğiyle... </p>
+                  <span class="award-carousel__button"> Detaylı Bilgi <svg width="17" height="17" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="ml-1">
+                      <path d="M5 12H19M19 12L12 5M19 12L12 19" style="color: #0089ec;" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </span>
+                </a>
+              </span>
+              <span class="award-carousel__image col-sm-12 col-md-6 col-xl-6">
+                <a href="" class="">
+                  <img src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/snet-gold-winner-badge.png" width="auto" height="238" alt="Sigortam.net Stevie Winner" class=" ls-is-cached lazyloaded">
+                </a>
+                <a href="" class="">
+                  <img src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/if-design-award-2024-vertical.png" width="auto" height="238" alt="If Design Award 2024" class=" ls-is-cached lazyloaded">
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="home-page__contractedCompanyCardList">
+        <div class="container">
+          <div class="contracted-company-card-list">
+            <h2 class="contracted-company-card-list__title">20’den fazla sigorta şirketinden teklif al</h2>
+            <div class="contracted-company-card-list__row">
+              <a href="/acibadem-saglik-hayat-sigorta" class="contracted-company-card-list__link col-3 col-xl-2">
+                <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/acibadem-sigorta.png" alt="Acıbadem Sigorta" width="106" height="50" class="contracted-company-card-list__img ls-is-cached lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/acibadem-sigorta.png">
+              </a>
+              <a href="/aksigorta" class="contracted-company-card-list__link col-3 col-xl-2">
+                <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/ak-sigorta.png" alt="Ak Sigorta" width="106" height="50" class="contracted-company-card-list__img ls-is-cached lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/ak-sigorta.png">
+              </a>
+              <a href="/allianz-sigorta" class="contracted-company-card-list__link col-3 col-xl-2">
+                <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/allianz.png" alt="Allianz Sigorta" width="106" height="50" class="contracted-company-card-list__img ls-is-cached lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/allianz.png">
+              </a>
+              <a href="/anadolu-sigorta" class="contracted-company-card-list__link col-3 col-xl-2">
+                <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/anadolu-sigorta.png" alt="Anadolu Sigorta" width="106" height="50" class="contracted-company-card-list__img ls-is-cached lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/anadolu-sigorta.png">
+              </a>
+              <a href="/anadolu-hayat-emeklilik" class="contracted-company-card-list__link col-3 col-xl-2">
+                <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/anadolu-hayat-emeklilik.png" alt="Acıbadem Sigorta" width="106" height="50" class="contracted-company-card-list__img ls-is-cached lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/anadolu-hayat-emeklilik.png">
+              </a>
+              <a href="/aveon-global-sigorta" class="contracted-company-card-list__link col-3 col-xl-2">
+                <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/aveon-global-sigorta.png" alt="Aveon Global Sigorta" width="106" height="50" class="contracted-company-card-list__img ls-is-cached lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/aveon-global-sigorta.png">
+              </a>
+              <a href="/axa-sigorta" class="contracted-company-card-list__link col-3 col-xl-2">
+                <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/axa-sigorta.png" alt="Axa Sigorta" width="106" height="50" class="contracted-company-card-list__img ls-is-cached lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/axa-sigorta.png">
+              </a>
+              <a href="/axa-hayat-emeklilik" class="contracted-company-card-list__link col-3 col-xl-2">
+                <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/axa-hayat-emeklilik.png" alt="Axa Hayat Emeklilik" width="106" height="50" class="contracted-company-card-list__img ls-is-cached lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/axa-hayat-emeklilik.png">
+              </a>
+              <a href="/demir-saglik-ve-hayat-sigorta" class="contracted-company-card-list__link col-3 col-xl-2">
+                <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/demir-saglik.png" alt="Demir Sağlık" width="106" height="50" class="contracted-company-card-list__img ls-is-cached lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/demir-saglik.png">
+              </a>
+              <a href="/doga-sigorta" class="contracted-company-card-list__link col-3 col-xl-2">
+                <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/doga-sigorta.png" alt="Doğa Sigorta" width="106" height="50" class="contracted-company-card-list__img ls-is-cached lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/doga-sigorta.png">
+              </a>
+              <a href="/eureko-sigorta" class="contracted-company-card-list__link col-3 col-xl-2">
+                <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/eureko.png" alt="Eureko" width="106" height="50" class="contracted-company-card-list__img lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/eureko.png">
+              </a>
+              <a href="/fiba-sigorta" class="contracted-company-card-list__link col-3 col-xl-2">
+                <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/fiba-sigorta.png" alt="Fiba Sigorta" width="106" height="50" class="contracted-company-card-list__img lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/fiba-sigorta.png">
+              </a>
+              <a href="/gig-sigorta" class="contracted-company-card-list__link col-3 col-xl-2">
+                <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/gig-sigorta.png" alt="Gig Sigorta" width="106" height="50" class="contracted-company-card-list__img lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/gig-sigorta.png">
+              </a>
+              <a href="/hdi-sigorta" class="contracted-company-card-list__link col-3 col-xl-2">
+                <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/hdi-sigorta.png" alt="HDI Sigorta" width="106" height="50" class="contracted-company-card-list__img lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/hdi-sigorta.png">
+              </a>
+              <a href="/magdeburger-sigorta" class="contracted-company-card-list__link col-3 col-xl-2">
+                <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/magdeburger-sigorta.png" alt="Magdeburger Sigorta" width="106" height="50" class="contracted-company-card-list__img lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/magdeburger-sigorta.png">
+              </a>
+              <a href="/mapfre-sigorta" class="contracted-company-card-list__link col-3 col-xl-2">
+                <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/mapfre-sigorta.png" alt="Mapfre Sigorta" width="106" height="50" class="contracted-company-card-list__img lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/mapfre-sigorta.png">
+              </a>
+              <a href="/neova-sigorta" class="contracted-company-card-list__link col-3 col-xl-2">
+                <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/neova-sigorta.png" alt="Neova Sigorta" width="106" height="50" class="contracted-company-card-list__img ls-is-cached lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/neova-sigorta.png">
+              </a>
+              <a href="/orient-sigorta" class="contracted-company-card-list__link col-3 col-xl-2">
+                <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/orient-sigorta.png" alt="Orient Sigorta" width="106" height="50" class="contracted-company-card-list__img ls-is-cached lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/orient-sigorta.png">
+              </a>
+              <a href="/quick-sigorta" class="contracted-company-card-list__link col-3 col-xl-2">
+                <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/quick-sigorta.png" alt="Quick Sigorta" width="106" height="50" class="contracted-company-card-list__img ls-is-cached lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/quick-sigorta.png">
+              </a>
+              <a href="/ray-sigorta" class="contracted-company-card-list__link col-3 col-xl-2">
+                <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/ray-sigorta.png" alt="Ray Sigorta" width="106" height="50" class="contracted-company-card-list__img ls-is-cached lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/ray-sigorta.png">
+              </a>
+              <a href="/sompo-sigorta" class="contracted-company-card-list__link col-3 col-xl-2">
+                <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/sompo-sigorta.png" alt="Sompo Sigorta" width="106" height="50" class="contracted-company-card-list__img ls-is-cached lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/sompo-sigorta.png">
+              </a>
+              <a href="/turkiye-sigorta" class="contracted-company-card-list__link col-3 col-xl-2">
+                <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/turkiye-sigorta.png" alt="Türkiye Sigorta" width="106" height="50" class="contracted-company-card-list__img ls-is-cached lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/turkiye-sigorta.png">
+              </a>
+              <a href="/turk-nippon-sigorta" class="contracted-company-card-list__link col-3 col-xl-2">
+                <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/turk-nippon-sigorta.png" alt="Türk Nippon Sigorta" width="106" height="50" class="contracted-company-card-list__img ls-is-cached lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/turk-nippon-sigorta.png">
+              </a>
+              <a href="/unico-sigorta" class="contracted-company-card-list__link col-3 col-xl-2">
+                <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/unico.png" alt="Unico" width="106" height="50" class="contracted-company-card-list__img ls-is-cached lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/unico.png">
+              </a>
+              <a href="/zurich-sigorta" class="contracted-company-card-list__link col-3 col-xl-2">
+                <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/zurich-sigorta.png" alt="Zurich Sigorta" width="106" height="50" class="contracted-company-card-list__img ls-is-cached lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/companies-icon/zurich-sigorta.png">
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section style="background: #F5F7F9;">
+      <div class="faq">
+        <h1 >Sigortam.net Hakkında En Merak Edilen 5 Soru</h1>
+    
+        <div class="faq-item">
+            <div class="question">
+                <span>Neden Sigortam.net’i tercih etmeliyim, farkınız nedir?</span>
+                <span ><img class="arrow" src="../ASSETS/bx-chevron-down.svg" alt=""></span>
+            </div>
+            <div class="answer">Sigortam.net Türkiye’nin ilk ve lider online sigorta brokeridir. Broker olarak farkımız, öncelikli olarak müşterilerimizi temsil etmemiz ve onların menfaatleri doğrultusunda hareket etmemizdir. Bu misyonla her zaman müşterilerimizin tarafındayız ve 20+ sigorta şirketi teklifini tek bir sayfada görmelerini, hem teminatları hem de fiyatları objektif olarak karşılaştırmalarını sağlıyoruz. Böylece müşterilerimiz ihtiyaçlarına en uygun sigortayı kolayca belirliyor ve online olarak satın alabiliyor. Ayrıca satış sonrası herhangi bir ihtiyacınızda 24 yıllık tecrübeli ekibimiz 7/24 desteğe hazır.</div>
+        </div>
+    
+        <div class="faq-item">
+            <div class="question">
+                <span>Poliçe satışında müşterilerden ek ücret alıyor musunuz?</span>
+                <span ><img class="arrow" src="../ASSETS/bx-chevron-down.svg"></span>
+            </div>
+            <div class="answer">Hayır, hiçbir ek ücret almıyoruz. Müşterilerimizden yalnızca sigorta şirketinin belirlediği poliçe fiyatını tahsil ediyoruz. Bu fiyat üzerinden Sigortam.net indirimleri veya iş birliği kampanyalarımız ile müşterilerimize en iyi fırsatları sunuyoruz.</div>
+        </div>
+    
+        <div class="faq-item">
+            <div class="question">
+                <span>Poliçe fiyatlarında indirim yapıyor musunuz?</span>
+                <span ><img class="arrow" src="../ASSETS/bx-chevron-down.svg" alt=""></span>
+            </div>
+            <div class="answer">Evet, sigorta şirketinin belirlediği poliçe fiyatı üzerinden, müşteriye özel Sigortam.net indirimleri uygulanabilir. Satın alma aşamasında kartınızdan sigorta şirketinin belirlediği tutar tahsil edilir, indirim tutarı Sigortam.net tarafından ödeme yapılan kredi kartına 1 hafta içerisinde iade edilir.</div>
+        </div>
+    
+        <div class="faq-item">
+            <div class="question">
+                <span>En iyi sigorta teklifini nasıl seçeceğim?</span>
+                <span ><img class="arrow" src="../ASSETS/bx-chevron-down.svg" alt=""></span>
+            </div>
+            <div class="answer">Anlaşmalı olduğumuz 20+ sigorta şirketinin müşterilerimize özel hazırladığı teklifleri fiyat ve teminatlar açısından puanlayıp öneriler hazırlıyoruz. Bu sayede müşterilerimiz teklifler arasından; en ucuz fiyata sahip ürün, fiyat/performans skoru en iyi olan ürün ve en kapsamlı teminat içeriğine sahip ürünü kolayca görebilir. Uzun süren incelemelere gerek kalmadan ihtiyacına en uygun poliçeyi hızlıca bulur ve güvencesini başlatır.</div>
+        </div>
+    
+        <div class="faq-item">
+            <div class="question">
+                <span>Sigortam.net’te kişisel bilgilerim güvende mi?</span>
+                <span ><img class="arrow" src="../ASSETS/bx-chevron-down.svg" alt=""></span>
+            </div>
+            <div class="answer">Evet, müşterilerimize özel sigorta teklifi için paylaşılan kişisel bilgiler ve ödeme bilgileri, tüm dünyada kabul edilip kullanılan SSL protokolümüz ile korunur. Sigortam.net TOBB tarafından verilen Güven Damgası’na sahip sigorta sektöründeki ilk şirkettir. Ödeme bilgileri sadece ödeme gerçekleştirilirken kullanılıp işlem sonrası kesinlikle kayıtlı tutulmaz. Bu güvenlik protokolleri sayesinde müşterilerimizin bilgileri Sigortam.net’e geldiği andan ödemenin tamamlanmasına kadar güvendedir.</div>
+        </div>
+    </div>
+    </section>
+
+
+      <section class="home-page__categoryBranchList">
+        <div class="container">
+          <section class="category-branch-list list">
+            <div class="category-branch-list__content">
+              <h3 class="category-branch-list__contentTitle d-flex">Sigortada Güvenin Adresi</h3>
+              <p> Doğru Ürün. İyi Fiyat. 7/24 Hizmet. </p>
+            </div>
+            <div class="category-branch-list__cards">
+              <div class="card branch-card">
+                <a href="/trafik-sigortasi" class="" target="_self">
+                  <div class="branch-card__inner d-flex justify-content-center align-items-center flex-column">
+                    <!---->
+                    <div class="branch-card__icon">
+                      <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/branchs/category/traffic.svg" alt="Trafik Sigortası Branş Sayfası" width="121" height="90" class=" ls-is-cached lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/branchs/category/traffic.svg">
+                    </div>
+                    <div class="branch-card__title">
+                      <span>Trafik Sigortası</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="card branch-card">
+                <a href="/kasko-sigortasi" class="" target="_self">
+                  <div class="branch-card__inner d-flex justify-content-center align-items-center flex-column">
+                    <!---->
+                    <div class="branch-card__icon">
+                      <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/branchs/category/auto-v2.svg" alt="Kasko Sigortası Branş Sayfası" width="121" height="90" class=" ls-is-cached lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/branchs/category/auto-v2.svg">
+                    </div>
+                    <div class="branch-card__title">
+                      <span>Kasko</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="card branch-card">
+                <a href="/imm-sigortasi" class="" target="_self">
+                  <div class="branch-card__inner d-flex justify-content-center align-items-center flex-column">
+                    <!---->
+                    <div class="branch-card__icon">
+                      <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/branchs/category/imm.svg" alt="İMM Sigortası Branş Sayfası" width="121" height="90" class=" ls-is-cached lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/branchs/category/imm.svg">
+                    </div>
+                    <div class="branch-card__title">
+                      <span>İMM</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="card branch-card">
+                <a href="/tamamlayici-saglik-sigortasi" class="" target="_self">
+                  <div class="branch-card__inner d-flex justify-content-center align-items-center flex-column">
+                    <!---->
+                    <div class="branch-card__icon">
+                      <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/branchs/category/complementhealth-v2.svg" alt="Tamamlayıcı Sağlık Sigortası Branş Sayfası" width="121" height="90" class=" ls-is-cached lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/branchs/category/complementhealth-v2.svg">
+                    </div>
+                    <div class="branch-card__title">
+                      <span>Tamamlayıcı Sağlık</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="card branch-card">
+                <a href="/ozel-saglik-sigortasi" class="" target="_self">
+                  <div class="branch-card__inner d-flex justify-content-center align-items-center flex-column">
+                    <!---->
+                    <div class="branch-card__icon">
+                      <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/branchs/category/health-v2.svg" alt="Özel Sağlık Sigortası Branş Sayfası" width="121" height="90" class=" ls-is-cached lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/branchs/category/health-v2.svg">
+                    </div>
+                    <div class="branch-card__title">
+                      <span>Özel Sağlık</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="card branch-card">
+                <a href="/seyahat-saglik-sigortasi" class="" target="_self">
+                  <div class="branch-card__inner d-flex justify-content-center align-items-center flex-column">
+                    <!---->
+                    <div class="branch-card__icon">
+                      <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/branchs/category/travel.svg" alt="Seyahat Sağlık Sigortası Branş Sayfası" width="121" height="90" class=" lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/branchs/category/travel.svg">
+                    </div>
+                    <div class="branch-card__title">
+                      <span>Seyahat Sağlık</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="card branch-card">
+                <a href="/dask-sigortasi" class="" target="_self">
+                  <div class="branch-card__inner d-flex justify-content-center align-items-center flex-column">
+                    <!---->
+                    <div class="branch-card__icon">
+                      <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/branchs/category/dask.svg" alt="DASK Sigortası Branş Sayfası" width="121" height="90" class=" lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/branchs/category/dask.svg">
+                    </div>
+                    <div class="branch-card__title">
+                      <span>DASK</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="card branch-card">
+                <a href="/evim-guvende-sigortasi" class="" target="_self">
+                  <div class="branch-card__inner d-flex justify-content-center align-items-center flex-column">
+                    <!---->
+                    <div class="branch-card__icon">
+                      <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/branchs/category/home.svg" alt="Evim Güvende Branş Sayfası" width="121" height="90" class=" ls-is-cached lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/branchs/category/home.svg">
+                    </div>
+                    <div class="branch-card__title">
+                      <span>Evim Güvende</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="card branch-card">
+                <a href="/konut-sigortasi" class="" target="_self">
+                  <div class="branch-card__inner d-flex justify-content-center align-items-center flex-column">
+                    <!---->
+                    <div class="branch-card__icon">
+                      <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/branchs/category/housing.svg" alt="Konut Sigortası Branş Sayfası" width="121" height="90" class=" lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/branchs/category/housing.svg">
+                    </div>
+                    <div class="branch-card__title">
+                      <span>Konut Sigortası</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="card branch-card">
+                <a href="/ferdi-kaza-sigortasi" class="" target="_self">
+                  <div class="branch-card__inner d-flex justify-content-center align-items-center flex-column">
+                    <!---->
+                    <div class="branch-card__icon">
+                      <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/branchs/category/personal-accident-blue.svg" alt="Ferdi Kaza Branş Sayfası" width="121" height="90" class=" lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/branchs/category/personal-accident-blue.svg">
+                    </div>
+                    <div class="branch-card__title">
+                      <span>Ferdi Kaza</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="card branch-card">
+                <a href="/evcil-hayvan-sigortasi" class="" target="_self">
+                  <div class="branch-card__inner d-flex justify-content-center align-items-center flex-column">
+                    <!---->
+                    <div class="branch-card__icon">
+                      <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/branchs/category/pet-v2.svg" alt="Evcil Hayvan Sigortası Branş Sayfası" width="121" height="90" class=" lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/branchs/category/pet-v2.svg">
+                    </div>
+                    <div class="branch-card__title">
+                      <span>Evcil Hayvan</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="card branch-card">
+                <a href="/cep-telefonu-sigortasi" class="" target="_self">
+                  <div class="branch-card__inner d-flex justify-content-center align-items-center flex-column">
+                    <!---->
+                    <div class="branch-card__icon">
+                      <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/branchs/category/phone.svg" alt="Cep Telefonu Sigortası Branş Sayfası" width="121" height="90" class=" lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/branchs/category/phone.svg">
+                    </div>
+                    <div class="branch-card__title">
+                      <span>Cep Telefonu</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+
+
+    <!------------------------------MAIN SECTION END-------------------------------------->
+    
+
+    
+    <footer class="footer-wrapper">
+      <div class="footer-inner-container">
+        <div class="footer-snet">
+          <div class="footer-snet-brand" style="position: relative;">
+            <div class="footer-snet-brand-logo" style="display: flex;">
+              <img alt="Sigortam.net" height="38" width="auto" class="footer__snet-goat" src="../ASSETS/app-logo-goat.svg">
+              <img alt="Sigortam.net" height="38" width="auto" class="footer__snet-goat" src="../ASSETS/app-logo-title.svg">
+            </div>
+            <span class="footer-copyright">© 2000-2024 Sigortam.net</span>
+          </div>
+          <a href="ödüller">
+            <div class="footer-snet-awards">
+              <img alt="Sigortam.net" height="58" width="auto" src="../ASSETS/snet-gold-winner-badge.png">
+              <img alt="Sigortam.net" height="58" width="auto" src="../ASSETS/if-design-award-2024-horizontal.png" style="display: block;margin-top: 8px;">
+            </div>
+          </a>
+        </div>
+        <div class="row app-footer__main">
+          <nav class="app-footer-nav col-12 col-lg-9 col-xl-10">
+            <div class="app-footer-nav__col col-12 col-md-6 col-lg-3">
+              <strong class="app-footer-nav__title"> Ürünlerimiz 
+              </strong>
+              <ul role="presentation" class="app-footer-nav__list" >
+                <a href="/kasko-sigortasi" class="app-footer-nav__link" title="Kasko Sigortası"> Kasko Sigortası </a>
+                <a href="/trafik-sigortasi" class="app-footer-nav__link" title="Trafik Sigortası"> Trafik Sigortası </a>
+                <a href="/imm-sigortasi" class="app-footer-nav__link" title="İMM Sigortası"> İMM Sigortası </a>
+                <a href="/tamamlayici-saglik-sigortasi" class="app-footer-nav__link" title="Tamamlayıcı Sağlık Sigortası"> Tamamlayıcı Sağlık Sigortası </a>
+                <a href="/ozel-saglik-sigortasi" class="app-footer-nav__link" title="Özel Sağlık Sigortası"> Özel Sağlık Sigortası </a>
+                <a href="/konut-sigortasi" class="app-footer-nav__link" title="Konut Sigortası"> Konut Sigortası </a>
+                <a href="/dask-sigortasi" class="app-footer-nav__link" title="DASK"> DASK </a>
+                <a href="/evim-guvende-sigortasi" class="app-footer-nav__link" title="Evim Güvende Sigortası"> Evim Güvende Sigortası </a>
+                <a href="/ferdi-kaza-sigortasi" class="app-footer-nav__link" title="Ferdi Kaza Sigortası"> Ferdi Kaza Sigortası </a>
+                <a href="/cep-telefonu-sigortasi" class="app-footer-nav__link" title="Telefon Kaskosu"> Telefon Kaskosu </a>
+                <a href="/evcil-hayvan-sigortasi" class="app-footer-nav__link" title="Evcil Hayvan Sigortası"> Evcil Hayvan Sigortası </a>
+                <a href="/seyahat-saglik-sigortasi" class="app-footer-nav__link" title="Seyahat Sağlık Sigortası"> Seyahat Sağlık Sigortası </a>
+              </ul>
+            </div>
+            <div class="app-footer-nav__col col-12 col-md-6 col-lg-3">
+              <strong class="app-footer-nav__title"> Merak Edilenler 
+              </strong>
+              <ul role="presentation" class="app-footer-nav__list">
+                <a href="/aylik-kasko-nedir" class="app-footer-nav__link" title="Günlük, Haftalık ve Aylık Kasko"> Günlük, Haftalık ve Aylık Kasko </a>
+                <a href="/dogum-sigortasi" class="app-footer-nav__link" title="Doğum Sigortası Fiyatları"> Doğum Sigortası Fiyatları </a>
+                <a href="/hamileyken-ozel-saglik-sigortasi-yaptirilir-mi" class="app-footer-nav__link" title="Hamileyken Doğum Sigortası"> Hamileyken Doğum Sigortası </a>
+                <a href="/limitsiz-ihtiyari-mali-mesuliyet-teminati" class="app-footer-nav__link" title="IMM Sigortası Nedir"> IMM Sigortası Nedir </a>
+                <a href="/trafik-sigortasi-internetten-yapilir-mi-yaptirmak-guvenli-mi" class="app-footer-nav__link" title="Internetten Trafik Sigortası Yaptırmak"> Internetten Trafik Sigortası Yaptırmak </a>
+                <a href="/saglik-sigortasi-nasil-karsilastirilir" class="app-footer-nav__link" title="Sağlık Sigortası Karşılaştırma"> Sağlık Sigortası Karşılaştırma </a>
+                <a href="/sbm-trafik-sigortasi" class="app-footer-nav__link" title="SBM Teklif Al"> SBM Teklif Al </a>
+                <a href="/trafik-sigortasi-sirketleri-hangileridir" class="app-footer-nav__link" title="Trafik Sigortası Şirketleri"> Trafik Sigortası Şirketleri </a>
+                <a href="/tamamlayici-saglik-sigortasi-dogum-paketi" class="app-footer-nav__link" title="TSS Doğum Paketi"> TSS Doğum Paketi </a>
+              </ul>
+            </div>
+            <div class="app-footer-nav__col col-12 col-md-6 col-lg-3">
+              <strong class="app-footer-nav__title"> Hızlı Erişim 
+              </strong>
+              <ul role="presentation" class="app-footer-nav__list">
+                <a href="/arac-yakit-hesaplama" class="app-footer-nav__link" title="Araç Yakıt Hesaplama"> Araç Yakıt Hesaplama </a>
+                <a href="/kasko-arac-deger-listesi" class="app-footer-nav__link" title="Kasko Değer Listesi"> Kasko Değer Listesi </a>
+                <a href="/mtv-hesaplama-ve-odeme" class="app-footer-nav__link" title="MTV Hesaplama"> MTV Hesaplama </a>
+                <a href="/arac-otv-kdv-hesaplama" class="app-footer-nav__link" title="ÖTV Hesaplama"> ÖTV Hesaplama </a>
+                <a href="/trafik-sigortasi-police-basamak-hesaplama" class="app-footer-nav__link" title="Trafik Sigortası Basamakları Hesaplama"> Trafik Sigortası Basamakları Hesaplama </a>
+                <a href="/tramer-nedir" class="app-footer-nav__link" title="Tramer Kaydı Sorgulama"> Tramer Kaydı Sorgulama </a>
+                <a href="/trafik-sigortasi-tavan-fiyatlari" class="app-footer-nav__link" title="Zorunlu Trafik Sigortası Fiyatları"> Zorunlu Trafik Sigortası Fiyatları </a>
+              </ul>
+            </div>
+            <div class="app-footer-nav__col col-12 col-md-6 col-lg-3">
+              <strong class="app-footer-nav__title" > Hakkımızda
+              </strong>
+              <ul role="presentation" class="app-footer-nav__list">
+                <a href="/hakkimizda" class="app-footer-nav__link" title="Biz Kimiz?"> Biz Kimiz? </a>
+                <a href="/iletisim" class="app-footer-nav__link" title="İletişim"> İletişim </a>
+                <a href="/odullerimiz" class="app-footer-nav__link" title="Ödüllerimiz"> Ödüllerimiz </a>
+                <a href="/islem-rehberi" class="app-footer-nav__link" title="İşlem Rehberi"> İşlem Rehberi </a>
+                <a href="/is-basvurusu" class="app-footer-nav__link" title="Kariyer"> Kariyer </a>
+                <a href="/kullanici-sozlesmesi" class="app-footer-nav__link" title="Kullanıcı Sözleşmesi"> Kullanıcı Sözleşmesi </a>
+                <a href="/veri-politikasi" class="app-footer-nav__link" title="Kişisel Verilerin Korunması"> Kişisel Verilerin Korunması </a>
+                <a href="/gizlilik-politikasi" class="app-footer-nav__link" title="Gizlilik ve Çerez Politikası"> Gizlilik ve Çerez Politikası </a>
+                <span title="Çerez Tercihleri" rel="nofollow" class="app-footer-nav__link efl-edit"> Çerez Tercihleri</span>
+                <a href="/sigortamnet-basketbol-takimi" class="app-footer-nav__link" title="Sigortam.net Basketbol Takımı"> Sigortam.net Basketbol Takımı </a>
+              </ul>
+            </div>
+          </nav>
+          <div class="app-footer-social col-12 col-lg-3 col-xl-2">
+            <a href="tel:4442400" aria-label="Yardımcı olmaya hazırız" class="get-help-cta-button">
+              <span class="get-help-cta-button__title">Yardımcı olmaya hazırız</span>
+              <span class="get-help-cta-button__phone">
+                <i class='bx bx-phone'></i> 444 24 00 </span>
+            </a>
+            <strong class="app-footer-social__title">Bizi Takip Edin</strong>
+            <ul role="presentation" class="app-footer-social__list" style="padding-left: 0 !important;">
+              <a href="https://facebook.com/sigortamnet" title="Facebook" target="_blank" rel="nofollow,noopener" class="app-footer-social__link app-footer-social__link--facebook">
+                <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/icons/svg/facebook.svg" alt="Facebook" class="app-footer-social__icon lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/icons/svg/facebook.svg">
+              </a>
+              <a href="https://twitter.com/sigortamnet" title="X" target="_blank" rel="nofollow,noopener" class="app-footer-social__link app-footer-social__link--x-logo">
+                <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/icons/svg/x-logo.svg" alt="X" class="app-footer-social__icon lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/icons/svg/x-logo.svg">
+              </a>
+              <a href="https://instagram.com/sigortamnet" title="Instagram" target="_blank" rel="nofollow,noopener" class="app-footer-social__link app-footer-social__link--instagram">
+                <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/icons/svg/instagram.svg" alt="Instagram" class="app-footer-social__icon lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/icons/svg/instagram.svg">
+              </a>
+              <a href="https://www.linkedin.com/company/sigortam-net" title="LinkedIn" target="_blank" rel="nofollow,noopener" class="app-footer-social__link app-footer-social__link--linkedin">
+                <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/icons/svg/linkedin.svg" alt="LinkedIn" class="app-footer-social__icon lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/icons/svg/linkedin.svg">
+              </a>
+              <a href="https://www.youtube.com/c/sigortamnet" title="Youtube" target="_blank" rel="nofollow,noopener" class="app-footer-social__link app-footer-social__link--youtube-filled">
+                <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/icons/svg/youtube-filled.svg" alt="Youtube" class="app-footer-social__icon lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/icons/svg/youtube-filled.svg">
+              </a>
+            </ul>
+            <div class="app-footer__signatures">
+              <a href="https://www.guvendamgasi.org.tr/firmadetay.php?Guid=99a596af-0146-11ea-b063-48df373f4850" title="Güven Damgası" rel="nofollow,noopener" class="app-footer__signature app-footer__signature--guvenDamgasi">
+                <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/brand-signatures/guven-damgasi.svg" alt="Güven Damgası" height="43" width="118" class="app-footer__signatureImage lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/brand-signatures/guven-damgasi.svg">
+              </a>
+              <a href="https://www.eticaret.gov.tr/siteprofil/9A3EA448D1B84D2BA4A873990B83B894/wwwsigortamnet" title="Etbis" rel="nofollow,noopener" class="app-footer__signature app-footer__signature--etbis">
+                <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/brand-signatures/etbis.jfif" alt="Etbis" height="45" width="38" class="app-footer__signatureImage lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/brand-signatures/etbis.jfif">
+              </a>
+              <div title="SSL" rel="nofollow,noopener" class="app-footer__signature app-footer__signature--ssl">
+                <img data-src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/brand-signatures/ssl.svg" alt="SSL" height="39" width="31" class="app-footer__signatureImage lazyloaded" src="https://cdnsnet.mncdn.com/facelift/assets/img/elements/brand-signatures/ssl.svg">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-infoBar">
+        <div class="footer-infoBar-inner-container">
+          <div class="ilab-copy">
+            <span>Sigortam.net bir  </span>
+            <a href="">
+              <img src="../ASSETS/ilab.svg" alt="iLab" style="margin: 0 12px;">
+            </a>
+            <span>  grup şirketidir.</span>
+          </div>
+          <ul role="presentation" class="footer-partnerList">
+            <a href="https://www.kariyer.net" title="Kariyer.net" target="_blank" rel="nofollow,noopener" class="app-footer-partnerList__link">
+              Kariyer.net
+            </a>
+            <div class="app-footer-partnerList__linkDivider">&nbsp;-&nbsp;</div>
+            <a href="https://www.arabam.com" title="Arabam.com" target="_blank" rel="nofollow,noopener" class="app-footer-partnerList__link">
+              Arabam.com
+            </a>
+            <div class="app-footer-partnerList__linkDivider">&nbsp;-&nbsp;</div>
+            <a href="https://www.cimri.com" title="Cimri" target="_blank" rel="nofollow,noopener" class="app-footer-partnerList__link">
+              Cimri
+            </a>
+            <div class="app-footer-partnerList__linkDivider">&nbsp;-&nbsp;</div>
+            <a href="https://www.emlakjet.com" title="Emlakjet" target="_blank" rel="nofollow,noopener" class="app-footer-partnerList__link">
+              Emlakjet
+            </a>
+            <div class="app-footer-partnerList__linkDivider">&nbsp;-&nbsp;</div>
+            <a href="https://www.endeksa.com/tr/" title="Endeksa" target="_blank" rel="nofollow,noopener" class="app-footer-partnerList__link">
+              Endeksa
+            </a>
+            <div class="app-footer-partnerList__linkDivider">&nbsp;-&nbsp;</div>
+            <a href="https://www.hangikredi.com" title="HangiKredi" target="_blank" rel="nofollow,noopener" class="app-footer-partnerList__link">
+              HangiKredi
+            </a>
+            <div class="app-footer-partnerList__linkDivider">&nbsp;-&nbsp;</div>
+            <a href="https://www.neredekal.com" title="Neredekal.com" target="_blank" rel="nofollow,noopener" class="app-footer-partnerList__link">
+              Neredekal.com
+            </a>
+            <div class="app-footer-partnerList__linkDivider">&nbsp;-&nbsp;</div>
+            <a href="https://www.chemorbis.com/tr/" title="ChemOrbis" target="_blank" rel="nofollow,noopener" class="app-footer-partnerList__link">
+              ChemOrbis
+            </a>
+            <div class="app-footer-partnerList__linkDivider">&nbsp;-&nbsp;</div>
+            <a href="https://tr.steelorbis.com" title="SteelOrbis" target="_blank" rel="nofollow,noopener" class="app-footer-partnerList__link">
+              SteelOrbis
+            </a>
+          </ul>
+        </div>
+      </div>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+
+    
+<script>
+  /*HIDE STICKY WHEN TOGGLED THE MENU ICON*/
+  document.getElementById("navbarNav").addEventListener("click", function() {
+    const stickyCard = document.getElementById("stickyCard");
+    if (stickyCard.style.visibility === "hidden") {
+      stickyCard.style.visibility = "visible";
+    } else {
+      stickyCard.style.visibility = "hidden";
+    }
+    console.log("Sticky card visibility:", stickyCard.style.visibility);
+  });
+</script>
+
+<script>
+  /*CAROUSEL SLIDER*/
+  let currentSlide = 0;
+
+  function moveSlide(direction) {
+      const slides = document.querySelectorAll('.carousel .slide');
+      const totalSlides = slides.length;
+      currentSlide = (currentSlide + direction + totalSlides) % totalSlides;
+      document.querySelector('.carousel-slides').style.transform = `translateX(-${currentSlide * 100}%)`;
+  }
+</script>
+
+  <script>
+    /*QUESTIONS ACCORDION STRUCTURE*/
+document.querySelectorAll('.question').forEach((question) => {
+    question.addEventListener('click', () => {
+        const answer = question.nextElementSibling;
+        const arrow = question.querySelector('.arrow');
+        
+        answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+          
+        if (answer.style.display === 'block') {
+            arrow.src = '../ASSETS/bx-chevron-up.svg';
+        } else {
+            arrow.src = '../ASSETS/bx-chevron-down.svg';
+        }
+    });
+});
+
+  </script>
+  </body>
+  
+</html>
+
